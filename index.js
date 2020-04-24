@@ -6,7 +6,7 @@ results = {
     ereyesterday: moment().tz("Europe/Dublin").subtract(2,'days').format("DD/MM/YYYY"),
     yesterday: moment().tz("Europe/Dublin").subtract(1,'days').format("DD/MM/YYYY"),
     today: moment().tz("Europe/Dublin").format("DD/MM/YYYY"),
-    tomorrow: moment().tz("Europe/Dublin").add(100,'days').format("DD/MM/YYYY"),
+    tomorrow: moment().tz("Europe/Dublin").add(3,'days').format("DD/MM/YYYY"),
     overmorrow: moment().tz("Europe/Dublin").add(2,'days').format("DD/MM/YYYY")
   },
   epoch_time: {
