@@ -1,0 +1,23 @@
+{
+  "name": "mocha-test-files",
+  "version": "1.0.1",
+  "description": "This program will get some dates and do test. The purpose of the whole program is to run tests and get everythign to pass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaleOCoileain/mocha-tests.git"
+  },
+  "author": "Dale Collins",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-sorted": "^0.2.0",
+    "moment-timezone": "^0.5.28"
+  },
+  "bugs": {
+    "url": "https://github.com/DaleOCoileain/mocha-tests/issues"
+  }
+}
