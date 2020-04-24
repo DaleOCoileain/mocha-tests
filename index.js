@@ -13,7 +13,7 @@ results = {
     epoch_ereyesterday: moment().tz("Europe/Dublin").subtract(2,'days').valueOf(),
     epoch_yesterday: moment().tz("Europe/Dublin").subtract(1,'days').valueOf(),
     epoch_today: moment().tz("Europe/Dublin").valueOf(),
-    epoch_tomorrow: moment().tz("Europe/Dublin").add(10,'days').valueOf(),
+    epoch_tomorrow: moment().tz("Europe/Dublin").add(1,'days').valueOf(),
     epoch_overmorrow: moment().tz("Europe/Dublin").add(2,'days').valueOf()
   },
   days_in_month: moment().daysInMonth(),
