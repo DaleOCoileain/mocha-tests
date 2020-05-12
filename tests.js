@@ -2,7 +2,7 @@ const results = require('./index')
 const mocha = require('mocha')
 const assert = require('chai').assert
 const expect = require('chai').expect
-const chai = require('chai')
+const chai = require('chai') 
 
 describe('Current Timestamp should print the current date / time', function() {
   it(`should return a date / time string: ${results.current_timestamp}`, function() {
